@@ -1,0 +1,9 @@
+<view>此图表展示您与设备间的距离，您可以参考此图表，设置设备与您之间的距离</view>
+<view>提示：在您坐下时，您与设备间的距离应小于40cm</view>
+<canvas class = "canvas" id="chart1"
+canvas-id="distance"></canvas>
+<!-- <canvas class = "canvas" id="chart3" -->
+<!-- canvas-id="time"></canvas> -->
+<view>您今天久坐的次数为：{{list}}次</view>
+<view> 请您注意坐姿</view>
+<view>提示：在使用完本设备后，建议断电。或在下一次使用前使用重启按钮重启本设备</view>
